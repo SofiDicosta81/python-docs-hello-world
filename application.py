@@ -10,7 +10,7 @@ def index():
         #request.GET_json()
     #    return jsonify({'You send': some_json}), 201
     #else:
-    return jsonify({'about': 'Hello world'}),
+    return jsonify({'about': 'Hello world'})
 
 if __name__ == "__main__":
     app.run(debug=True)
